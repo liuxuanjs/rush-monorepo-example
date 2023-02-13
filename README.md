@@ -6,9 +6,9 @@
 
 - Structures
   - apps: Web Apps
-  - features: packages that do not need to be released, only reused in this Monorepo
-  - packages: packages that need to be released
-  - tools: common tools for all projects
+  - features: 不需要发布的包，只需要在这个Monorepo中重复使用
+  - packages: 需要发布的包
+  - tools: 所有项目的通用工具
 - Examples
   - create-react-app
   - vite-react-app
@@ -28,7 +28,7 @@ cd rush-monorepo-example
 
 rush update
 
-# build dependencies of our app at first
+# 首先建立我们应用程序的依赖关系
 rush build -T @rush-monorepo/cra-app
 
 cd apps/cra-app

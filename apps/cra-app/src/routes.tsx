@@ -1,6 +1,7 @@
-import { set } from 'lodash-es';
 import { ComponentType, lazy, Suspense } from 'react';
 import { RouteObject, useRoutes } from 'react-router-dom';
+
+import { set } from 'lodash-es';
 
 export function PageRoutes() {
   const routeConfig = generateRouteConfig();
@@ -34,6 +35,7 @@ function generatePathConfig() {
     .context('./pages', true, /\w*\.(tsx)$/, 'lazy')
     .keys()
     .forEach((filePath) => {
+      console.log('filePath===', filePath);
       const routePath = filePath
         // 去除 ./ 不相关的字符
         .replace('./', '')
@@ -45,10 +47,11 @@ function generatePathConfig() {
         .replace(/\$([\w-]+)/, '$1')
         // 以目录分隔
         .split('/');
-
+      console.log('routePath===', routePath);
       // 使用 lodash.set 合并为一个对象
       set(pathConfig, routePath, () => import(`./pages/${filePath.replace('./', '')}`));
     });
+  console.log('pathConfig===', pathConfig);
   return pathConfig as {
     [path: string]: IPathConfig | IImporterFn;
     $: IImporterFn;
@@ -61,6 +64,7 @@ function generatePathConfig() {
 function mapPathConfigToRoute(cfg: Record<string, any>): RouteObject[] {
   // route 的子节点为数组
   return Object.entries(cfg).map(([routePath, child]) => {
+    console.log('routePath1231=', routePath);
     // () => import() 语法判断
     if (typeof child === 'function') {
       // 等于 index 则映射为当前根路由

@@ -8,6 +8,7 @@ const BlogLayout: React.FC = () => {
         <Link to="/blog/new">click to create post</Link>
         <br />
         <Link to="/blog/123">click to post detail</Link>
+        <Link to="/blog/demo">click to demo</Link>
       </div>
       <Outlet />
     </>
