@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-monorepo/example-pkg-basic",
+      "comment": "测试rush change",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@rush-monorepo/example-pkg-basic"
+}
