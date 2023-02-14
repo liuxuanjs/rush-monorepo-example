@@ -23,7 +23,8 @@
       "commandKind": "global",
       "summary": "Used by the commit-msg Git hook. This command invokes commitlint to lint commit message.",
       "autoinstallerName": "command-plugins",
-      "shellCommand": "commitlint -e"
+      "shellCommand": "commitlint -e",
+      "safeForSimultaneousRushProcesses": true
     },
     {
       "name": "lint-staged",
