@@ -30,7 +30,8 @@
       "commandKind": "global",
       "summary": "Used by the pre-commit Git hook. This command invokes eslint to lint staged changes.",
       "autoinstallerName": "command-plugins",
-      "shellCommand": "lint-staged"
+      "shellCommand": "lint-staged",
+      "safeForSimultaneousRushProcesses": true
     }
     // {
     //   /**
