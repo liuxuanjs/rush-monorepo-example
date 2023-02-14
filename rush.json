@@ -232,6 +232,7 @@
    * optional features you can use.
    */
   "gitPolicy": {
+    "versionBumpCommitMessage": "chore: release publish"
     /**
      * Work at a big company?  Tired of finding Git commits at work with unprofessional Git
      * emails such as "beer-lover@my-college.edu"?  Rush can validate people's Git email address
