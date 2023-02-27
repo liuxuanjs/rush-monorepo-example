@@ -9,9 +9,9 @@ importers:
     specifiers:
       '@craco/craco': ^6.4.3
       '@ebay/nice-modal-react': ^1.2.5
+      '@liuxuanjs/example-pkg-basic': workspace:*
       '@rush-monorepo/eslint-config': workspace:*
       '@rush-monorepo/example-feat-comp': workspace:*
-      '@rush-monorepo/example-pkg-basic': workspace:*
       '@rush-monorepo/prettier-config': workspace:*
       '@testing-library/dom': ^8.13.0
       '@testing-library/jest-dom': ^5.16.4
@@ -52,8 +52,8 @@ importers:
       zustand: 4.0.0-rc.1
     dependencies:
       '@ebay/nice-modal-react': 1.2.5_react-dom@18.1.0+react@18.1.0
+      '@liuxuanjs/example-pkg-basic': link:../../packages/example-pkg-basic
       '@rush-monorepo/example-feat-comp': link:../../features/example-feat-comp
-      '@rush-monorepo/example-pkg-basic': link:../../packages/example-pkg-basic
       axios: 0.27.2
       lodash-es: 4.17.21
       react: 18.1.0
@@ -99,9 +99,9 @@ importers:
   ../../apps/vite-app:
     specifiers:
       '@ebay/nice-modal-react': ^1.2.6
+      '@liuxuanjs/example-pkg-basic': workspace:*
       '@rush-monorepo/eslint-config': workspace:*
       '@rush-monorepo/example-feat-comp': workspace:*
-      '@rush-monorepo/example-pkg-basic': workspace:*
       '@rush-monorepo/prettier-config': workspace:*
       '@types/node': 16.11.33
       '@types/react': 18.0.9
@@ -135,8 +135,8 @@ importers:
       zustand: 4.0.0-rc.1
     dependencies:
       '@ebay/nice-modal-react': 1.2.6_react-dom@18.1.0+react@18.1.0
+      '@liuxuanjs/example-pkg-basic': link:../../packages/example-pkg-basic
       '@rush-monorepo/example-feat-comp': link:../../features/example-feat-comp
-      '@rush-monorepo/example-pkg-basic': link:../../packages/example-pkg-basic
       '@vitejs/plugin-legacy': 1.8.2_vite@2.9.14
       axios: 0.27.2
       classnames: 2.3.1

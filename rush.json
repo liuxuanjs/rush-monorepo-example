@@ -490,7 +490,7 @@
       "projectFolder": "features/example-feat-comp"
     },
     {
-      "packageName": "@rush-monorepo/example-pkg-basic",
+      "packageName": "@liuxuanjs/example-pkg-basic",
       "projectFolder": "packages/example-pkg-basic",
       "shouldPublish": true
     }
