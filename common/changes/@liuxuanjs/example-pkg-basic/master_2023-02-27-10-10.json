@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@liuxuanjs/example-pkg-basic",
+      "comment": "修改包名",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@liuxuanjs/example-pkg-basic"
+}
