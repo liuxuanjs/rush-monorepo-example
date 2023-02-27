@@ -11,7 +11,7 @@
   "dependencies": {
     "@ebay/nice-modal-react": "^1.2.6",
     "@rush-monorepo/example-feat-comp": "workspace:*",
-    "@rush-monorepo/example-pkg-basic": "workspace:*",
+    "@liuxuanjs/example-pkg-basic": "workspace:*",
     "@vitejs/plugin-legacy": "^1.8.2",
     "axios": "^0.27.2",
     "classnames": "^2.3.1",

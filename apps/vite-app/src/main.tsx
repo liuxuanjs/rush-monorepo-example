@@ -6,7 +6,7 @@ import { BrowserRouter, useRoutes } from 'react-router-dom';
 import routes from '~react-pages';
 
 import NiceModal from '@ebay/nice-modal-react';
-import { sum } from '@rush-monorepo/example-pkg-basic';
+import { sum } from '@liuxuanjs/example-pkg-basic';
 
 import './index.scss';
 
