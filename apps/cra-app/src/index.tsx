@@ -4,7 +4,7 @@ import 'react-app-polyfill/stable';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { sum } from '@rush-monorepo/example-pkg-basic';
+import { sum } from '@liuxuanjs/example-pkg-basic';
 
 import { App } from './app';
 import './index.scss';

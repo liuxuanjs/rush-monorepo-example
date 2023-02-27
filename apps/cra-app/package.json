@@ -26,7 +26,7 @@
   "dependencies": {
     "@ebay/nice-modal-react": "^1.2.5",
     "@rush-monorepo/example-feat-comp": "workspace:*",
-    "@rush-monorepo/example-pkg-basic": "workspace:*",
+    "@liuxuanjs/example-pkg-basic": "workspace:*",
     "axios": "^0.27.2",
     "lodash-es": "^4.17.21",
     "react": "^18.1.0",
